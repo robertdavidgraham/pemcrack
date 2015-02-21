@@ -17,7 +17,7 @@ which comes with XCode developer tools.
 
   gcc pemcrack.c -o pemcrack -lssl -lcrypto
 
-On Linux, compile the following. You'll need get the `openssl-devel` package. I'm 
+On Linux, compile the following. You'll need get the `libssl-dev` package. I'm 
 not sure the exact name, I'll get around to testing it.
 
   gcc pemcrack.c -o pemcrack -lssl -lcrypto
