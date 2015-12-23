@@ -22,4 +22,10 @@ not sure the exact name, I'll get around to testing it.
 
   gcc pemcrack.c -o pemcrack -lssl -lcrypto
   
+##See also
 
+Here is another project that does the same thing, in case this projeck doesn't 
+satisfy your needs
+
+  ``https://github.com/chipx0r/crackpkcs8``
+  
