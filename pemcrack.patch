@@ -1,0 +1,18 @@
+--- ./pemcrack.c	2021-11-17 16:48:46.829542418 +0000
++++ pemcrack_fixed.c	2021-11-17 16:43:21.399951474 +0000
+@@ -7,7 +7,15 @@
+     API.
+ */
+ 
++// Include missing headers
++
++#include <stdio.h>
++#include <stdlib.h>
++#include <ctype.h>
++#include <string.h>
++
+ #define _CRT_SECURE_NO_WARNINGS
++
+ #include <openssl/ssl.h>
+ #include <openssl/bio.h>
+ #include <openssl/err.h>
